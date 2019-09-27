@@ -10,3 +10,5 @@ def converteHora(hora24, minuto24):
     if (hora24 > 12):
         hora24 -= 12
     return '%02d:%02d PM' % (hora24, minuto24)
+
+print (converteHora(10,30))
