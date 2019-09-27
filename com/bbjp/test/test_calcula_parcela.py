@@ -10,3 +10,8 @@ def test_valor():
         assert valorPagamento(500, 50) == 765.0
 
 
+def test_valor():
+        assert valorPagamento(500, -1) == 500
+
+
+
